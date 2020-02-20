@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.gap{
+    margin-right: 30px;
+}
+/*===commen css end===*/
+
+/*===banner area start===*/
+.banner_bg{
+    height: 600px;
+    background: url(./images/header-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.banner_bg .banner{
+    height: 100%;
+}
+.banner_bg .banner .banner_content{
+    width: 465px;
+    height: 100%;
+    float: left;
+}
+.banner_bg .banner .banner_content h1{
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-top: 100px;
+}
+.banner_bg .banner .banner_content h1 span{
+    display: block;
+    font-size: 50px;
+    color: #ec4c76;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+.banner_bg .banner .banner_content p{
+    font-size: 18px;
+    text-align: justify;
+    margin-top: 20px;
+}
+.banner_bg .banner .banner_content a{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 25px;
+    background: #e8134a;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.banner_bg .banner .banner_img{
+    width: 465px;
+    height: 100%;
+    float: left;    
+}
+.banner_bg .banner .banner_img img{
+    height: 90%;
+    margin-top: 10%;
+}
+/*===banner area end===*/
+
+/*===biography area start===*/
+.biography_bg{
+    background: #f1f1f1;
+    height: 650px
+}
+.biography_bg .biography{
+    height: 100%;
+}
+.biography_bg .biography .biography_content{
+    width: 465px;
+    height: 100%;
+    float: left;
+}
+.biography_bg .biography .biography_content h1{
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-top: 100px;
+}
+.biography_bg .biography .biography_content h1 span{
+    display: block;
+    font-size: 50px;
+    color: #ec4c76;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+.biography_bg .biography .biography_content p{
+    font-size: 18px;
+    text-align: justify;
+    margin-top: 20px;
+}
+.biography_bg .biography .biography_content a{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 25px;
+    background: #e8134a;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.biography_bg .biography .biography_img{
+    width: 465px;
+    height: 100%;
+    float: left;    
+}
+.biography_bg .biography .biography_img img{
+    height: 90%;
+    margin-top: 10%;
+}
+/*===biography area area end===*/
+
+
+/*===work area start===*/
+.work_bg{
+    height: 500px;
+    background: url(./images/latest-work-bg.png);
+    background-repeat: no-repeat;
+}
+.work_bg .work{
+    height: 100%;
+}
+.work_bg .work .heading{
+    height: 150px;
+    text-align: center;
+}
+.work_bg .work .heading h2{
+    padding-top: 70px;
+    text-transform: capitalize;
+    font-size: 40px;
+}
+.work_bg .work .gallery{
+    width: 100%;
+    height: 300px;
+}
+.work_bg .work .gallery .item{
+    width: 300px;
+    height: 100%;
+    margin-top: 50px;
+    float: left;
+}
+.work_bg .work .gallery .item img{
+    width: 100%;
+}
+/*===work area end===*/
+
+/*===banner area start===*/
+
+/*===banner area end===*/
