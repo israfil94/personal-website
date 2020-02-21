@@ -50,14 +50,14 @@ a{
     margin-top: 20px;
 }
 .banner_bg .banner .banner_content a{
-    font-size: 20px;
+    font-size: 18px;
     text-transform: uppercase;
-    color: #fff;
+    color: #ffffff;
     display: inline-block;
-    padding: 10px 25px;
-    background: #e8134a;
+    padding: 7px 25px;
+    background: #ec4c76;
     border-radius: 5px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 .banner_bg .banner .banner_img{
     width: 465px;
@@ -72,7 +72,10 @@ a{
 
 /*===biography area start===*/
 .biography_bg{
-    background: #f1f1f1;
+    background: url(./images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     height: 650px
 }
 .biography_bg .biography{
@@ -86,7 +89,7 @@ a{
 .biography_bg .biography .biography_content h1{
     font-size: 40px;
     text-transform: capitalize;
-    margin-top: 100px;
+    margin-top: 200px;
 }
 .biography_bg .biography .biography_content h1 span{
     display: block;
@@ -101,14 +104,14 @@ a{
     margin-top: 20px;
 }
 .biography_bg .biography .biography_content a{
-    font-size: 20px;
-    text-transform: uppercase;
+    font-size: 18px;
+    text-transform: capitalize;
     color: #fff;
     display: inline-block;
     padding: 10px 25px;
     background: #e8134a;
     border-radius: 5px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 .biography_bg .biography .biography_img{
     width: 465px;
@@ -126,7 +129,9 @@ a{
 .work_bg{
     height: 500px;
     background: url(./images/latest-work-bg.png);
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;    
+    background-size: cover;
+    background-position: center;
 }
 .work_bg .work{
     height: 100%;
@@ -134,9 +139,9 @@ a{
 .work_bg .work .heading{
     height: 150px;
     text-align: center;
+    margin-top: 75px;
 }
 .work_bg .work .heading h2{
-    padding-top: 70px;
     text-transform: capitalize;
     font-size: 40px;
 }
@@ -155,6 +160,72 @@ a{
 }
 /*===work area end===*/
 
-/*===banner area start===*/
+/*===client feedback area start===*/
+.client_bg{
+    height: 600px;
+    background: url(./images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.client_bg .client{
+    height: 100%;
+}
+.client_bg .client .feedback{
+    height: 300px;
+    text-align: center;
+}
+.client_bg .client .feedback h2{
+    font-size: 30px;
+    text-transform: capitalize;
+    padding-top: 80px;
+}
+.client_bg .client .feedback h5{
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-top: 30px;
+}
+.client_bg .client .feedback p{
+    text-transform: capitalize;
+    margin-top: 5px;
+}
+.client_bg .client .feedback p span{
+    text-transform: uppercase;
+}
+.client_bg .client .feedback p:last-child{
+    font-size: 18px;
+    margin-top: 20px;
+    text-transform: capitalize;
+    
+}
+.client_bg .client .feedback p:last-child span{
+    display: block;
+    text-transform: capitalize;
+}
+.client_bg .client .contact{
+    height: 150px;
+    width: 650px;
+    text-align: center;
+    background: #ec4c76;
+    border-radius: 7px;
+    margin: 15px auto;
+}
+.client_bg .client .contact p{
+    font-size: 18px;
+    color: #ffffff;
+    padding-top: 35px;
+}
+.client_bg .client .contact p:last-child{
+    padding-top: 15px;
+    font-size: 24px;
+    font-weight: 700;
+}
+/*===client feedback area end===*/
 
-/*===banner area end===*/
+/*===footer area start===*/
+footer{
+    text-align: center;
+    color: #353535;
+    padding-bottom: 20px;
+}
+/*===footer area end===*/
