@@ -19,7 +19,7 @@ a{
 /*===banner area start===*/
 .banner_bg{
     height: 600px;
-    background: url(./images/header-bg.png);
+    background: url(../images/header-bg.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -67,12 +67,20 @@ a{
 .banner_bg .banner .banner_img img{
     height: 90%;
     margin-top: 10%;
+    -o-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
 }
+.banner_bg .banner .banner_img:hover img{
+   transform: scale(1.1); 
+}
+
 /*===banner area end===*/
 
 /*===biography area start===*/
 .biography_bg{
-    background: url(./images/biography-bg.png);
+    background: url(../images/biography-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -121,6 +129,13 @@ a{
 .biography_bg .biography .biography_img img{
     height: 90%;
     margin-top: 10%;
+    -o-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+}
+.biography_bg .biography .biography_img:hover img{
+    transform: scale(1.2); 
 }
 /*===biography area area end===*/
 
@@ -128,7 +143,7 @@ a{
 /*===work area start===*/
 .work_bg{
     height: 500px;
-    background: url(./images/latest-work-bg.png);
+    background: url(../images/latest-work-bg.png);
     background-repeat: no-repeat;    
     background-size: cover;
     background-position: center;
@@ -157,13 +172,20 @@ a{
 }
 .work_bg .work .gallery .item img{
     width: 100%;
+    -o-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+}
+.work_bg .work .gallery .item:hover img{
+    transform: scale(1.2);
 }
 /*===work area end===*/
 
 /*===client feedback area start===*/
 .client_bg{
     height: 600px;
-    background: url(./images/footer-bg.png);
+    background: url(../images/footer-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -221,6 +243,130 @@ a{
     font-weight: 700;
 }
 /*===client feedback area end===*/
+
+/*==form area start==*/
+.form_bg{
+    width: 100%;
+    height: 800px;
+    background: #fff;
+}
+.form_bg .form{
+    width: 960px;
+    height: 800px;
+    margin: 0 auto;
+}
+.form_bg .form .heading{
+    width: 960px;
+    height: 100px;
+}
+.form_bg .form .heading h3{
+    text-align: center;
+    font-size: 30px;
+    line-height: 150px;
+    text-transform: capitalize;
+}
+.form_bg .form .un{
+    height: 3px;
+    width: 110px;
+    background: #000;
+    margin: 0 auto;
+}
+.form_bg .form .image{
+    height: 200px;
+    width: 320px;
+    text-align: center;
+    margin-top: 20px;
+    float: left;
+}
+.form_bg .form .image img{
+    text-align: center;
+    margin-top: 15px;
+}
+.form_bg .form .image p{
+    margin-top: 10px;
+}
+
+.form_bg .form .name{
+    width: 465px;
+    height: 50px;
+    float: left;
+}
+.form_bg .form .name input{
+    width: 465px;
+    height: 50px;
+    border-radius: 7px;
+    padding-left: 10px;
+    font-size: 18px;
+    border: 0px;
+    background: #f1f1f1;
+    text-transform: capitalize;
+}
+.form_bg .form .email{
+    width: 465px;
+    height: 50px;
+    float: right;
+    border-radius: 7px;
+}
+.form_bg .form .email input{
+    width: 465px;
+    height: 50px;
+    border-radius: 7px;
+    padding-left: 10px;
+    font-size: 18px;
+    border: 0px;
+    background: #f1f1f1;
+    text-transform: capitalize;
+}
+
+.form_bg .form .subject{
+    margin-top: 290px;
+    width: 960px;
+    height: 50px;
+    border-radius: 7px;
+}
+.form_bg .form .subject input{
+    width: 960px;
+    height: 50px;
+    border-radius: 7px;
+    padding-left: 10px;
+    font-size: 18px;
+    border: 0px;
+    background: #f1f1f1;
+    text-transform: capitalize;
+}
+.form_bg .form .massage{
+    margin-top: 20px;
+    width: 960px;
+    height: 200px;
+    border-radius: 7px;
+}
+.form_bg .form .massage input{
+    width: 960px;
+    height: 200px;
+    border-radius: 7px;
+    padding-left: 10px;
+    font-size: 18px;
+    border: 0px;
+    background: #f1f1f1;
+    text-transform: capitalize;
+}
+.form_bg .form .send{
+    margin: 20px auto;
+    width: 180px;
+    height: 50px;
+    
+}
+.form_bg .form button {
+    width: 180px;
+    height: 50px;
+    color: #fff;
+    background: #82B541;
+    font-size: 20px;
+    border-radius: 20px;
+    text-transform: capitalize;
+}
+/*==form are end==*/
+
 
 /*===footer area start===*/
 footer{
